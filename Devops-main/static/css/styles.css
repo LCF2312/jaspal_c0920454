@@ -1,0 +1,113 @@
+body {
+    padding: 20px;
+}
+table {
+    margin-top: 20px;
+}
+
+/* Styles for the homepage content */
+.text-center {
+    margin-top: 50px; /* Extra space above for better visibility */
+}
+
+.display-4 {
+    font-weight: 700; /* Make the title bold */
+    color: #343a40; /* Dark gray color for the title */
+}
+
+.lead {
+    font-size: 1.25rem; /* Slightly larger font for the lead text */
+    color: #6c757d; /* Muted color for the description */
+}
+
+/* Styles for the product cards */
+.card {
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    border: none; /* Remove card border for a cleaner look */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for product titles */
+    color: #007bff; /* Bootstrap primary color for titles */
+}
+
+.card-text {
+    font-size: 1rem; /* Standard font size for product descriptions */
+    color: #495057; /* Darker gray for text */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    border-color: #6c757d;
+}
+
+/* Button styles */
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+    border-color: #545b62; /* Darker border on hover */
+}
+
+/* Styles for the homepage content */
+.text-center {
+    margin-top: 50px; /* Extra space above for better visibility */
+}
+
+.display-4 {
+    font-weight: 700; /* Make the title bold */
+    color: #343a40; /* Dark gray color for the title */
+}
+
+.lead {
+    font-size: 1.25rem; /* Slightly larger font for the lead text */
+    color: #6c757d; /* Muted color for the description */
+}
+
+/* Styles for the product cards */
+.card {
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    border: none; /* Remove card border for a cleaner look */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for product titles */
+    color: #00ff4c; /* Bootstrap primary color for titles */
+}
+
+.card-text {
+    font-size: 1rem; /* Standard font size for product descriptions */
+    color: #f66e07; /* Darker gray for text */
+}
+
+/* Button styles */
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    border-color: #ed0505;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+    border-color: #590cd5; /* Darker border on hover */
+}
+
+
+
