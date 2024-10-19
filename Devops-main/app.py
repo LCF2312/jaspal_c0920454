@@ -1,15 +1,19 @@
 from urllib.parse import quote_plus
 from flask import Flask, render_template
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
 
-username = "c0920454"  # replace with your actual username
-password = "vjding5y10fY8WXN"  # replace with your actual password
+load_dotenv() #load env variables from .env files
+
+USERNAME = os.getenv('USERNAME')
+PASSWORD = os.getenv('PASSWORD')
 
 # # URL-encode the username and password
-encoded_username = quote_plus(username)
-encoded_password = quote_plus(password)
+encoded_username = quote_plus(USERNAME)
+encoded_password = quote_plus(PASSWORD)
 
 # Connect to MongoDB Atlas
 client = MongoClient(f"mongodb+srv://{encoded_username}:{encoded_password}@cluster0.onhos.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
