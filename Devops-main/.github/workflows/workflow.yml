@@ -24,8 +24,8 @@ jobs:
       
       - name: Run your application
         env:
-          MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-          MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
         run: |
           python app.py
